@@ -1,0 +1,94 @@
+#button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aa998a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+
+}
+@media screen and (max-width: 1024px) {
+    #button{
+        display: none;
+    }
+}
+
+#button:hover {
+    color: #f0f0f0;
+}
+
+/* Create the line using ::after */
+#button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the line below the button */
+    width: 0;
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: white;
+    transition: width 0.3s ease;
+
+
+}
+
+/* On hover, expand the line */
+#button:hover::after {
+    width: 100%;
+}
+/**/
+#button1 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aa998a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+
+}
+
+#button1:hover {
+    color: #f0f0f0;
+}
+
+/* Create the line using ::after */
+#button1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the line below the button */
+    width: 0;
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: white;
+    transition: width 0.3s ease;
+
+
+}
+
+/* On hover, expand the line */
+#button1:hover::after {
+    width: 100%;
+}
+/**/
+#group{
+    position: relative;
+}
+.group:after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.group:hover:after{
+    width: 100%;
+}

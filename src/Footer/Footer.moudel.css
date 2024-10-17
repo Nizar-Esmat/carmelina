@@ -1,0 +1,24 @@
+.footer{
+    background-color: #1C2C34;
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+
+}
+#group1{
+    position: relative;
+}
+#group1:after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+#group1:hover:after{
+    width: 100%;
+}
