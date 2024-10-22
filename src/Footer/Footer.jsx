@@ -20,7 +20,7 @@ function Footer(props) {
                     <div className="mb-4">
                         <img src={logo} className="w-40 h-auto" alt="Logo"/>
                     </div>
-                    <p className="text-sm lg:text-base leading-relaxed mb-6">
+                    <p className="text-sm lg:text-base leading-relaxed mb-6 w-2/3">
                         Welcome to Carmelina, where comfort is everything. Beautiful room presentations, straightforward
                         booking & reservation options, and a whole lot more await here.
                     </p>

@@ -1,0 +1,27 @@
+/* Wrapper for Swiper navigation */
+.swiper-container:hover .swiper-button-next,
+.swiper-container:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+/* Default styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    background-color: #1C2C34;
+    padding: 50px 30px 50px 30px    ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect on buttons */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
