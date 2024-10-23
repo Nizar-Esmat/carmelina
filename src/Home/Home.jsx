@@ -28,7 +28,7 @@ function Home() {
     ];
 
     return (
-        <div className="swiper-container">
+        <div className="swiper-container ">
             <Swiper
                 loop={true}
                 autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -47,7 +47,7 @@ function Home() {
                             className="slide-container relative flex flex-col text-white items-center justify-center h-screen w-screen gap-12 p-6 md:p-12 bg-gradient-to-b from-gray-900 to-gray-700"
                         >
                             {/* Overlay */}
-                            <div className="overlay absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300"></div>
+                            <div className="overlay"></div>
 
                             <span className="text-lg md:text-xl underline relative z-10">{slide.title}</span>
                             <h2 className="text-3xl md:text-5xl underline text-yellow-400 text-center relative z-10">
